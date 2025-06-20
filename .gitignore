@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+
+# Configuración y secretos
+*.env
+.env.*
+secrets.json
+config.yaml
+
+# Base de datos local (si tienes algo así)
+*.db
+*.sqlite3
+
+# VSCode y otros editores
+.vscode/
+.idea/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
